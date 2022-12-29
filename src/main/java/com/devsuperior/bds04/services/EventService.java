@@ -35,6 +35,6 @@ public class EventService {
         event.setCity(new City(eventDTO.getCityId(), null));
         event.setName(eventDTO.getName());
         event.setDate(eventDTO.getDate());
-        event.setUrl(event.getUrl());
+        event.setUrl(eventDTO.getUrl());
     }
 }
